@@ -1,0 +1,288 @@
+body{
+
+	font-family: 'century Gothic',calibri,serif;
+	margin: 0px;
+	padding: 100px;
+    background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+	font-family: 'sofia';
+
+}
+td{margin: 25px}
+h1{
+
+	font-size: 40px;
+	font-weight: normal;
+	text-align: center;
+}
+p{
+	text-align: center;
+	font-size: 20px;
+}
+h3{
+	font-size: 25px;
+}
+header{
+	height: 100px;
+}
+
+	
+
+footer{
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	text-align: left;
+	background-color: white;
+
+}
+nav{
+	display: flex;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	  
+}
+nav ul{margin: 0px;
+	padding: 0px;
+}
+nav li{
+	list-style-type: none;
+	float: left;
+	}
+nav a{
+	display: inline-block;
+	text-decoration: none;
+	padding: 20px 30px;
+	color: #FFF;
+	text-transform: uppercase;
+	font-size: 15px;
+}
+.table{
+	display: table;
+	margin: 0 auto;
+    z-index: 10;
+
+    
+
+}
+.menu-cv{
+	border-top:5px solid #424949  ;
+	background-color: rgba(253, 254, 254  );
+
+	
+}
+.menu-pro{border-top:5px solid #424949 ;
+	background-color: rgba(253, 254, 254  );
+
+
+}
+.menu-exp{
+	border-top:5px solid #424949 ;
+	background-color: rgba(253, 254, 254 );
+}
+
+.menu-con{
+border-top:5px solid #424949 ;
+background-color:rgba(253, 254, 254 );
+}
+.menu-per{border-top:5px solid #424949 ;
+	background-color: rgba(253, 254, 254 );
+
+}
+.menu-com{border-top:5px solid #424949 ;
+	background-color: rgba(253, 254, 254 );
+
+}
+
+nav li:hover a{
+	padding: 15px 30px 20px 30px ;
+}
+
+section{
+	width: 100%;
+	min-height: 300%;
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+}
+.sec{
+	margin:0px 10px;
+}
+.left{
+	float: left;
+	width: 30%;
+	font-size: 25%;
+}
+.right{
+	float: left;
+	width: 70%
+}
+.cleft, .cright, .sousleft, .sousright{
+	width: 50%
+	float:left;
+}
+.sec::after, .exp::after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+
+@media screen and (max-width: 780px){
+	header{
+		height: 50px;
+	}
+	h1{
+		font-size: 28px;
+		margin: 20px 0px 0px 0px;
+	}
+	nav li a{
+		font-size: 12px;
+		padding: 10px;
+	}
+	nav li:hover a{
+		padding: 5px 10px 10px 10px;
+	}
+
+}
+.buttonround {
+border-radius: 90%;
+width: 50px;
+height: 50px;
+background: transparent;
+border: none;
+}
+#tmContact {
+  min-height: 1197px;
+}
+#tmContactForm {
+  width: 100%;
+  max-width: 680px;
+  padding: 45px 45px 30px;
+  margin-bottom: 95px;
+}
+
+.tm-bg-white-transparent {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding-left: 10%;
+}
+.form-group {
+  max-width: 355px;
+}
+.tm-btn-enregistrer {
+  background-color: #012611;
+  padding: 12px 30px;
+  font-size: 1.2rem;
+  color: white;
+  border: none;
+
+}
+.tm-btn-enregistrer:focus,
+.tm-btn-enregistrer:hover {
+  background-color: #676767;
+}
+.form-control {
+  background: transparent;
+  
+  padding: 15px 10px;
+  font-size: 1.1rem;
+  margin-bottom: 10px;
+  border: none;
+  border-bottom: 2px solid #999999;
+}
+.imgCenter{
+	 margin-left: 40%;
+  margin-top: 8%;
+ 
+}
+.imgRound{
+	border-radius: 25px;
+}
+
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    font-family: sans-serif;
+}
+h1{
+    text-align: center;
+}
+.main{
+    margin-top: 10%;
+    display: flex;
+}
+.main h3{
+    margin-bottom: 5px;
+    margin-left: 25%;
+}
+.container{
+    width: 50%;
+    background-color: #D2D7D3;
+    margin-left: 25%;
+    border-radius: 5px;
+}
+.skills{
+    text-align: right;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color:white;
+    border-radius: 5px;
+}
+.html{width:80%; background-color: #145A32;}
+.css{width:75%; background-color: #145A32;}
+.js{width:65%; background-color: #145A32;}
+.java{width:40%; background-color: #145A32;}
+.anglais{width:60%; background-color: #145A32;}
+.francais{width:70%; background-color: #145A32;}
+.arabe{width:90%; background-color: #145A32;}
+.turc{width:50%; background-color: #145A32;}
+
+.expPro{
+     background-color: rgba(242, 243, 244,0.50); 
+  
+  width: 45%;
+  margin-left:30%;
+  padding: 5%;
+
+
+}
+
+.skillsRight{
+    width: 50%;
+    margin-right: 5%;
+    float: right;
+    
+    
+}
+.skillsLeft{
+    width: 50%;
+    margin-left: 5%;
+    float: left;
+    
+   
+}
+body{
+      background-image:  linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)),url("contact2.jpg");
+      font-size: 25%;
+      
+    }   
+    .bodyacc
+        {
+
+            background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url("profil.jpg");
+        }
+
+ .articleAp{
+    
+  border-radius: 25px;
+  width: 650px;
+  height: 250px; 
+  background-color: rgba(242, 243, 244,0.50); 
+  opacity: 0.8;
+  margin:auto;
+   
+}

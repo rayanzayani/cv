@@ -6,7 +6,7 @@ include  "connexion.php";
 if(isset($id)){
     $requete1="DELETE FROM contact WHERE id=".$id; 
     $conn->query($requete1) or die ($conn->error);
-    header("Location: ../views/listeUtilisateurs.php");
+    header("Location: ../views/admin/listeUtilisateurs.php?supp=supprimé avec success!");
 }
     
 ?>

@@ -8,19 +8,13 @@ if(isset($_POST['submit'])){
     $tel = $_POST["tel"];
     $email = $_POST["email"];
     $message = $_POST["message"];
-    $login = $_POST["login"];
-    $password = $_POST["password"];
-    $role = $_POST["role"];
 
-    $req="SELECT * FROM contact WHERE id=".$id;
-    $conn->query($requete) or die ($conn->error);
         
 
     $requete="UPDATE contact SET  
-        nom='$nom',tel='$tel',email='$email',message='$message',login='$login',password='$password',role='$role'
-        WHERE id=".$id;
+        nom='$nom',tel='$tel',email='$email',message='$message' WHERE id=".$id;
         $conn->query($requete) or die ($conn->error);
-        header("Location: ../views/listeUtilisateurs.php");
+        header("Location: ../views/admin/listeUtilisateurs.php?msg=modifié avec success!");
     
 
     
